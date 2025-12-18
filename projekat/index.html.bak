@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGACIJA -->
+<header>
+    <nav class="nav">
+        <h2>MojeIme</h2>
+        <ul>
+            <li><a href="#home">Početna</a></li>
+            <li><a href="#about">O meni</a></li>
+            <li><a href="#skills">Vještine</a></li>
+            <li><a href="#projects">Projekti</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO SEKCIJA -->
+<section id="home" class="hero">
+    <h1>Zdravo, ja sam MojeIme</h1>
+    <p>Budući web developer | Portfolio 2035</p>
+    <a href="#about" class="btn">Saznaj više</a>
+</section>
+
+<!-- O MENI -->
+<section id="about" class="section">
+    <h2>O meni</h2>
+    <div class="about-content">
+        <img src="images/about.jpg" alt="O meni">
+        <p>
+            Ja sam student IT-a koji želi postati uspješan web developer do 2035. godine.
+            Moj cilj je raditi na velikim projektima, razvijati moderne web aplikacije
+            i konstantno učiti nove tehnologije.
+        </p>
+    </div>
+</section>
+
+<!-- VJEŠTINE -->
+<section id="skills" class="section gray">
+    <h2>Vještine</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Flexbox</div>
+        <div class="skill">Grid</div>
+        <div class="skill">Git</div>
+    </div>
+</section>
+
+<!-- PROJEKTI -->
+<section id="projects" class="section">
+    <h2>Projekti</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="images/project1.jpg">
+            <h3>Web Aplikacija 2030</h3>
+            <p>Moderan web sistem za upravljanje podacima.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/project2.jpg">
+            <h3>Startup Platforma</h3>
+            <p>Online platforma za freelancere.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/project3.jpg">
+            <h3>AI Portfolio</h3>
+            <p>Pametni portfolio sa personalizacijom.</p>
+        </div>
+    </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="section gray">
+    <h2>Blog</h2>
+    <div class="blog">
+        <article>Zašto učiti web development?</article>
+        <article>Budućnost IT industrije</article>
+        <article>Kako postati uspješan developer</article>
+    </div>
+</section>
+
+<!-- GALERIJA -->
+<section class="section">
+    <h2>Galerija</h2>
+    <div class="gallery">
+        <img src="images/project1.jpg">
+        <img src="images/project2.jpg">
+        <img src="images/project3.jpg">
+    </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="contact" class="section gray">
+    <h2>Kontakt</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Ime">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Poruka"></textarea>
+        <button>Pošalji</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 MojeIme | Društvene mreže</p>
+</footer>
+
+</body>
+</html>
